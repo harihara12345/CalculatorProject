@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[This method is to verify data passed from Data Provider for addition function in calculator]]>
+    </line>
+    <line>
+      <![CDATA[This method is to verify data passed from Data Provider for Division function in calculator]]>
+    </line>
+    <line>
+      <![CDATA[This method is to verify data passed from Data Provider for Multiplication function in calculator]]>
+    </line>
+    <line>
+      <![CDATA[This method is to verify data passed from Data Provider for subscription function in calculator]]>
+    </line>
+    <line>
+      <![CDATA[This method is to verify data passed from Parameter value set in xml for addition function in calculator]]>
+    </line>
+    <line>
+      <![CDATA[This method is to verify data passed from Parameter value set in xml for Division function in calculator]]>
+    </line>
+    <line>
+      <![CDATA[This method is to verify data passed from Parameter value set in xml for Multiplication function in calculator]]>
+    </line>
+    <line>
+      <![CDATA[This method is to verify data passed from Parameter value set in xml for Subscription function in calculator]]>
+    </line>
+  </reporter-output>
+  <suite name="CalculatorAssignment" duration-ms="81" started-at="2020-07-02T17:55:20Z" finished-at="2020-07-02T17:55:20Z">
+    <groups>
+      <group name="division">
+        <method signature="AddSubTest.testDataDiv(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataDiv" class="com.example.AddSubTest"/>
+        <method signature="AddSubTest.testParamDiv(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamDiv" class="com.example.AddSubTest"/>
+      </group> <!-- division -->
+      <group name="subtraction">
+        <method signature="AddSubTest.testDataSub(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataSub" class="com.example.AddSubTest"/>
+        <method signature="AddSubTest.testParamSub(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamSub" class="com.example.AddSubTest"/>
+      </group> <!-- subtraction -->
+      <group name="multiplication">
+        <method signature="AddSubTest.testDataMul(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataMul" class="com.example.AddSubTest"/>
+        <method signature="AddSubTest.testParamMul(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamMul" class="com.example.AddSubTest"/>
+      </group> <!-- multiplication -->
+      <group name="addition">
+        <method signature="AddSubTest.testDataAdd(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataAdd" class="com.example.AddSubTest"/>
+        <method signature="AddSubTest.testParamAdd(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamAdd" class="com.example.AddSubTest"/>
+      </group> <!-- addition -->
+    </groups>
+    <test name="Calculator" duration-ms="81" started-at="2020-07-02T17:55:20Z" finished-at="2020-07-02T17:55:20Z">
+      <class name="com.example.AddSubTest">
+        <test-method status="PASS" signature="testDataAdd(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataAdd" duration-ms="14" started-at="2020-07-02T23:25:20Z" data-provider="add" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Data Provider for addition function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDataAdd -->
+        <test-method status="PASS" signature="testDataDiv(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataDiv" duration-ms="4" started-at="2020-07-02T23:25:20Z" data-provider="div" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Data Provider for Division function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDataDiv -->
+        <test-method status="PASS" signature="testDataMul(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataMul" duration-ms="1" started-at="2020-07-02T23:25:20Z" data-provider="mul" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Data Provider for Multiplication function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDataMul -->
+        <test-method status="PASS" signature="testDataSub(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testDataSub" duration-ms="2" started-at="2020-07-02T23:25:20Z" data-provider="sub" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Data Provider for subscription function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDataSub -->
+        <test-method status="PASS" signature="testParamAdd(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamAdd" duration-ms="3" started-at="2020-07-02T23:25:20Z" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Parameter value set in xml for addition function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testParamAdd -->
+        <test-method status="PASS" signature="testParamDiv(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamDiv" duration-ms="3" started-at="2020-07-02T23:25:20Z" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Parameter value set in xml for Division function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testParamDiv -->
+        <test-method status="PASS" signature="testParamMul(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamMul" duration-ms="3" started-at="2020-07-02T23:25:20Z" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Parameter value set in xml for Multiplication function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testParamMul -->
+        <test-method status="PASS" signature="testParamSub(java.lang.String, java.lang.String)[pri:0, instance:com.example.AddSubTest@6d78f375]" name="testParamSub" duration-ms="2" started-at="2020-07-02T23:25:20Z" finished-at="2020-07-02T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This method is to verify data passed from Parameter value set in xml for Subscription function in calculator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testParamSub -->
+      </class> <!-- com.example.AddSubTest -->
+    </test> <!-- Calculator -->
+  </suite> <!-- CalculatorAssignment -->
+</testng-results>

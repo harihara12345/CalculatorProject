@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CalculatorAssignment">
+ <groups>  
+ <run>  
+ <include name="addition"/> 
+ <include name="subtraction"/>  
+ <include name="multiplication"/> 
+ <include name="division"/>
+ <exclude name="exclude"/>  
+ </run>  
+ </groups>
+
+ <test name="Calculator">
+ <parameter name="number1" value="300"/>
+ <parameter name="number2" value="200"/>
+  <parameter name="num1" value="100"/>
+ <parameter name="num2" value="5"/>
+  <classes>
+ <class name="com.example.AddSubTest" />
+ </classes>
+ </test>
+</suite>
